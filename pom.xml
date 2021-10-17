@@ -33,10 +33,6 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-h2</artifactId>
     </dependency>
-<!--    <dependency>-->
-<!--      <groupId>io.quarkus</groupId>-->
-<!--      <artifactId>quarkus-smallrye-graphql-client</artifactId>-->
-<!--    </dependency>-->
     <!-- Flyway specific dependencies -->
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -73,6 +69,16 @@
       <artifactId>lombok</artifactId>
       <version>RELEASE</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mapstruct</groupId>
+      <artifactId>mapstruct</artifactId>
+      <version>1.4.2.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mapstruct</groupId>
+      <artifactId>mapstruct-processor</artifactId>
+      <version>1.4.2.Final</version>
     </dependency>
   </dependencies>
   <build>
