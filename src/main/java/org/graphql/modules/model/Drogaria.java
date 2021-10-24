@@ -9,6 +9,6 @@ import javax.persistence.Entity;
 @Entity
 @Getter
 @Setter
-public class Drogaria  extends PanacheEntity {
-    public String nome;
+public class Drogaria extends PanacheEntity {
+    private String nome;
 }
