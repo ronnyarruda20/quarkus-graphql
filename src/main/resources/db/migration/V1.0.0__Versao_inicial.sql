@@ -24,3 +24,17 @@
            add constraint fk_estoque_id
            foreign key (estoque_id)
            references Estoque
+
+      create table Usuario (
+            id bigint not null,
+             email varchar(255),
+             endereco varchar(255),
+             nome varchar(255),
+             receita tinyint,
+             primary key (id)
+         )
+
+      alter table Medicamento
+           add constraint fk_estoque_id
+           foreign key (estoque_id)
+           references Estoque

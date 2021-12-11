@@ -14,4 +14,5 @@ public class Usuario extends PanacheEntity implements Pessoa {
     private String endereco;
     private String email;
     private Byte receita;
+
 }
