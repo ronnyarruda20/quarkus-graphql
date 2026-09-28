@@ -1,4 +1,17 @@
-# code-with-quarkus-graphql Project
+# quarkus-graphql
+
+Exemplo de API GraphQL com **Quarkus 2.3** e **SmallRye GraphQL** (MicroProfile GraphQL), usando um domínio simples de drogaria: drogarias, medicamentos e estoque.
+
+O que o exemplo demonstra:
+
+- Expor queries e mutations com `@GraphQLApi`, `@Query` e `@Mutation` (`allDrogaria`, `allEstoque`, `saveDrogaria`).
+- Persistência com Hibernate ORM Panache em H2 em memória, com carga inicial via `import.sql`.
+- DTOs mapeados com MapStruct e boilerplate reduzido com Lombok.
+- Testes de integração com RestAssured (`src/test`).
+
+Em dev mode, a interface GraphiQL fica em <http://localhost:8080/q/graphql-ui> e o endpoint em `/graphql`.
+
+---
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
